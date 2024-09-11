@@ -22,3 +22,5 @@ SELECT * FROM student  --this command for select and show all table.
 select name, marks from student --this command for select perticular row like marks name.
 
 SELECT DISTINCT city from student;  -- this is use for not showing duoble value form perticular row.
+
+select * from student where marks > 80;  --where is use for passing some rule on the perticular table or row. 
