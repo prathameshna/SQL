@@ -24,3 +24,27 @@ select name, marks from student --this command for select perticular row like ma
 SELECT DISTINCT city from student;  -- this is use for not showing duoble value form perticular row.
 
 select * from student where marks > 80;  --where is use for passing some rule on the perticular table or row. 
+
+select *
+from student
+where marks+10 > 80;  --this query for showing use case of where.
+
+-- use of comaprision operator &&. 
+select * 
+from student
+where marks > 75 && city = "pune"; 
+
+-- use of BETWEEN keyword.
+select * 
+from student
+where marks between 70 and 80;
+
+-- IN keyword use for check perticular think is present in the table or not.
+select * 
+from student
+where city in ("pune","satara");
+
+-- (asc)this keyword for data get in ascending order and (desc) for decrement order.
+select *
+from student
+order by marks asc;
