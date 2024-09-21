@@ -21,3 +21,5 @@ values
 UPDATE student
 SET grade = "o"
 WHERE grade = "A"
+
+-- DELETE query
