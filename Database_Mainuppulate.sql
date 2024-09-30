@@ -27,3 +27,6 @@ set SQL_safe_update = 0;
 -- DELETE query
 delete from student
 where marks < 78;
+
+-- TRUNCATE are used to delete a table value.COMMENT
+TRUNCATE table student;
