@@ -39,3 +39,24 @@ SELECT *
 FROM employee AS e
 INNER JOIN helper AS h
 ON e.id = h.id;
+
+-- LEFT JOIN :- returns all the records from the left table, and the matched records from the right table.
+
+SELECT * 
+FROM employee AS e
+LEFT JOIN helper as h
+ON e.id = h.id
+
+-- RIGHT JOIN :- Returns all records from the right table, and the matched records from the left table
+
+SELECT * 
+FROM employee as e
+RIGHT JOIN helper AS h
+ON e.id = h.id;
+
+-- SELF JOIN(JOIN) :- It is a regular join but the table is joined with itself.
+
+SELECT * 
+FROM employee AS e
+JOIN employee AS b
+ON a.id = b.manager_id;

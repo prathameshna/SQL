@@ -14,6 +14,21 @@
             "username": "root",
             "password": "54441276",
             "connectionTimeout": 30
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "My connection local",
+            "database": "company",
+            "username": "root",
+            "password": "54441276",
+            "connectionTimeout": 30
         }
     ]
 }
